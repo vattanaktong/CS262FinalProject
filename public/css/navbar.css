@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', cursive;
+}
+/* Navbar */
+.navbar-dark{
+    background: transparent !important;
+}
+.navbar-dark.scrolled{
+    background: #282d32 !important;
+}
+.navbar{
+    padding: 3rem;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        padding-top: 7px;
+    }
+
+}
+@media (max-width: 767px) {
+    .navbar {
+        padding-top: 3px;
+    }
+
+    .navbar .nav-item {
+        font-size: 15px;
+    }
+
+ 
+}
+
+
+.navbar.scrolled{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+.nav-item {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 18px;
+}
+.nav-item a {
+    color: rgb(10, 10, 10) !important;
+}
+/*  */
+/* Selection */
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(2, 113, 133);
+  }
+/*  */

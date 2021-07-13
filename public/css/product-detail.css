@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar-dark{
+    background: #282d32;
+}
+.navbar-dark.scrolled{
+    background: #282d32 !important;
+}
+.navbar{
+    padding: 3rem;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        
+    }
+    
+    .custom-toggler.navbar-toggler {
+      border-color: black;
+    } 
+    
+@media (max-width: 991px) {
+    .navbar {
+        padding-top: 7px;
+    }
+
+}
+@media (max-width: 767px) {
+    .navbar {
+        padding-top: 3px;
+    }
+
+    .navbar .nav-item {
+        font-size: 15px;
+    }
+
+ 
+}
+
+.navbar.scrolled{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+.nav-item { 
+    text-align: center;
+    font-size: 20px;
+    padding: 0 18px;
+}
+.nav-item a {
+    color: black !important;
+}
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', cursive;
+}
+
+.wrap-dt {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.img-dt {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.text-center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+  }
+
+.product-desc {
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.product-side {
+    padding-top: 5rem;
+}
+
+.card-title{
+    text-align: start;
+    font-size: 50px;
+}
+
+.equipment{
+    padding-top: 2rem;
+}
+.card-img-top {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
